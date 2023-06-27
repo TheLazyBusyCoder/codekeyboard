@@ -273,3 +273,5 @@ document.addEventListener("keydown", function (e) {
   }
   if (!/Shift|Alt|Backspace/.test(e["key"])) keypress_div.append(div);
 });
+
+console.log("hi how are you");
