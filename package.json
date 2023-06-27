@@ -1,0 +1,16 @@
+{
+  "name": "codekeyboard",
+  "version": "1.0.0",
+  "description": "\"A static website to practice coding keywords of different language's\"",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.9.3"
+  }
+}

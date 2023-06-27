@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codekeyboard</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="">
+    <main>
+      <div class="modal-window hide-me">
+        <div class="modal-box">
+          <div class="time-input-box">
+            <input
+              placeholder="min"
+              id="time-input-min"
+              class="time-input min"
+              type="number"
+              value="1"
+              id="min"
+            />
+            <input
+              id="sec"
+              placeholder="sec"
+              class="time-input sec"
+              type="number"
+            />
+          </div>
+          <button class="start-button">Start!</button>
+        </div>
+      </div>
+      <div class="modal-window-result hide-me">
+        <div class="modal-box-result">
+          <button class="modal-window-result-close-button">x</button>
+          <div class="result-text speed">Speed: 50WPM</div>
+          <div class="result-text total-words">Total Words: 10</div>
+          <div class="result-text correct-words">Correct Words: 5</div>
+          <div class="result-text miss-words">Miss Words: 5</div>
+        </div>
+      </div>
+      <nav>
+        <div class="navigation-div">
+          <div class="codekeyboard-logo-div">
+            <div class="codekeyboard-heading">Codekeyboard.com</div>
+          </div>
+          <div class="navigation-buttons-div">
+            <div class="language">
+              <select
+                name="language"
+                id="language-selector"
+                class="language-selector"
+              >
+                <option name="english" value="english">English</option>
+                <option name="javascript" value="javascript" class="javaScript">
+                  javaScript
+                </option>
+                <option value="c" class="c">C</option>
+              </select>
+            </div>
+            <div class="dark-mode">
+              <label class="switch">
+                <input class="dark-mode-button-switch" type="checkbox" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div class="time">
+              <div class="time-button" id="clock-click">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 1024 1024"
+                  class="clock-icon"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M512 896a384 384 0 1 0 0-768a384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896a448 448 0 0 1 0 896z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M480 256a32 32 0 0 1 32 32v256a32 32 0 0 1-64 0V288a32 32 0 0 1 32-32z"
+                  />
+                  <path
+                    fill="currentColor"
+                    d="M480 512h256q32 0 32 32t-32 32H480q-32 0-32-32t32-32z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="word-div">
+        <section class="word-cont">
+          <span class="word">bye</span>
+        </section>
+        <section class="input-cont">
+          <input placeholder="start!" class="input-box" type="text" />
+        </section>
+      </div>
+      <div class="keypress-div"></div>
+    </main>
+    <script src="./new.js"></script>
+  </body>
+</html>

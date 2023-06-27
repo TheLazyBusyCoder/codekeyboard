@@ -1,0 +1,13 @@
+color theme: 
+
+black 
+rgb(46, 2, 73)
+
+purple 
+rgb(87, 10, 87)
+
+pink 
+rgb(169, 16, 121)
+rgb(248, 6, 204)
+
+infinity problem while printing in the end screen.
